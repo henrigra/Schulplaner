@@ -7,14 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class SecondFragment extends Fragment{
+public class Stundenplan extends Fragment{
 
     View myView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        myView = inflater.inflate(R.layout.second_layout, container, false);
+        myView = inflater.inflate(R.layout.stundenplan, container, false);
         return myView;
     }
 }
